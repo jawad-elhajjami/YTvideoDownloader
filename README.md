@@ -1,6 +1,6 @@
 # YouTube Video Downloader
 
-A simple Python script to download YouTube videos using the `pytube` library.
+A simple Python script to download YouTube videos using the `yt_dlp` library.
 
 ## Features
 - Download YouTube videos by providing the video URL.
@@ -10,10 +10,11 @@ A simple Python script to download YouTube videos using the `pytube` library.
 ## Prerequisites
 Before running the script, ensure you have the following installed:
 - Python 3.x
-- `pytube` library
+- `yt_dlp` library
+- `ffmpeg`
 
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/youtube-downloader.git
+   git clone https://github.com/jawad-elhajjami/YTvideoDownloader
    cd youtube-downloader
